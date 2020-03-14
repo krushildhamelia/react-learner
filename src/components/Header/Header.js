@@ -15,12 +15,12 @@ class Header extends Component {
         } = this.props;
 
         return (
-            <div className="App-header">
+            <header className="App-header">
                 <a href={url}>
                     <img src={logo} className="App-logo" alt="logo" />
                 </a>
                 <h2>{title}</h2>
-            </div>
+            </header>
         )
     }
 }
